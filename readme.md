@@ -45,7 +45,7 @@ git clone https://github.com/udsgit/tic-tac-toe.git
 
 ## **Usage**
 
-1. Just download and install the [**Apk**](./apk/tic-tac-toe.apk). (You may have to accept the option to install third-party apps outside of the Play Store)
+1. Just download and install the [**Apk**](https://github.com/udsgit/tic-tac-toe/raw/master/apk/tic-tac-toe.apk). (You may have to accept the option to install third-party apps outside of the Play Store)
 2. The game will change languages according to the language of your phone (English, Spanish or Russian).
 3. Just choose **1 player** and you will have up to 6 different levels or choose **2 Players**.
 4. Enjoy.
