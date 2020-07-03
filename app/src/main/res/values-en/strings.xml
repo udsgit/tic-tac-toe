@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="dificultad">Difficulty</string>
+    <string name="unJugador">1 Player</string>
+    <string name="dosJugadores">2 Players</string>
+    <string name="muyFacil">Very Easy</string>
+    <string name="facil">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="dificil">Hard</string>
+    <string name="muyDificil">Very Hard</string>
+    <string name="imposible">Impossible</string>
+    <string name="reiniciar">Reset</string>
+    <string name="menu">Back To Menu</string>
+    <string name="casilla">Tile</string>
+    <string name="circuloGana">The Circles Win</string>
+    <string name="cruzGana">The Crosses Win</string>
+    <string name="empate">Draw</string>
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_pantalla"
+    android:weightSum="1"
+    tools:context=".Tablero">
+
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.4" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombreApp"
+            style="@style/titulo"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/dificultad"
+            style="@style/titulo"
+            android:text="@string/dificultad"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/unJug"
+            style="@style/botonJugadores"
+            android:onClick="unJugador"
+            android:text="@string/unJugador" />
+
+        <LinearLayout
+            android:id="@+id/layoutBotonesEnPartida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/reiniciar"
+                style="@style/botonJugadores"
+                android:onClick="reiniciarPartida"
+                android:text="@string/reiniciar" />
+
+            <Button
+                android:id="@+id/menu"
+                style="@style/botonJugadores"
+                android:onClick="volverAlMenu"
+                android:text="@string/menu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDificultad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/muyFacil"
+                    style="@style/botonDificultad"
+                    android:onClick="comprobarDificultad"
+                    android:text="@string/muyFacil" />
+
+                <Button
+                    android:id="@+id/facil"
+                    style="@style/botonDificultad"
+                    android:onClick="comprobarDificultad"
+                    android:text="@string/facil" />
+
+                <Button
+                    android:id="@+id/normal"
+                    style="@style/botonDificultad"
+                    android:onClick="comprobarDificultad"
+                    android:text="@string/normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/dificil"
+                    style="@style/botonDificultad"
+                    android:onClick="comprobarDificultad"
+                    android:text="@string/dificil" />
+
+                <Button
+                    android:id="@+id/muyDificil"
+                    style="@style/botonDificultad"
+                    android:onClick="comprobarDificultad"
+                    android:text="@string/muyDificil" />
+
+                <Button
+                    android:id="@+id/imposible"
+                    style="@style/botonDificultad"
+                    android:onClick="comprobarDificultad"
+                    android:text="@string/imposible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/dosJug"
+            style="@style/botonJugadores"
+            android:onClick="dosJugadores"
+            android:text="@string/dosJugadores" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.4" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <GridLayout
+            android:id="@+id/tablero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:columnCount="3"
+            android:rowCount="3">
+
+
+            <ImageView
+                android:id="@+id/t00"
+                style="@style/tablero"
+                android:src="@drawable/casilla" />
+
+            <ImageView
+                android:id="@+id/t01"
+                style="@style/tablero"
+                android:src="@drawable/casilla" />
+
+            <ImageView
+                android:id="@+id/t02"
+                style="@style/tablero"
+                android:src="@drawable/aspa" />
+
+            <ImageView
+                android:id="@+id/t10"
+                style="@style/tablero" />
+
+            <ImageView
+                android:id="@+id/t11"
+                style="@style/tablero"
+                android:src="@drawable/aspa" />
+
+            <ImageView
+                android:id="@+id/t12"
+                style="@style/tablero" />
+
+            <ImageView
+                android:id="@+id/t20"
+                style="@style/tablero"
+                android:src="@drawable/aspa" />
+
+            <ImageView
+                android:id="@+id/t21"
+                style="@style/tablero"
+                android:src="@drawable/circulo" />
+
+            <ImageView
+                android:id="@+id/t22"
+                style="@style/tablero"
+                android:src="@drawable/circulo" />
+
+        </GridLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

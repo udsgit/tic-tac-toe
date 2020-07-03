@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+    </style>
+
+    <style name="titulo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textoTitulo</item>
+    </style>
+
+    <style name="botonJugadores">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/anchoMinBotonJugadores</item>
+        <item name="android:minHeight">@dimen/altoMinBotonJugadores</item>
+        <item name="android:textSize">@dimen/textoBotonJugadores</item>
+        <item name="android:layout_margin">@dimen/margenBoton</item>
+        <item name="android:background">@drawable/boton</item>
+    </style>
+
+    <style name="botonDificultad">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/anchoMinBotonDificultad</item>
+        <item name="android:minHeight">@dimen/altoMinBotonDificultad</item>
+        <item name="android:textSize">@dimen/textoBotonDificultad</item>
+        <item name="android:layout_margin">@dimen/margenBoton</item>
+        <item name="android:background">@drawable/boton</item>
+    </style>
+
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textoRadio</item>
+        <item name="android:alpha">@dimen/trasparenciaRadio</item>
+    </style>
+
+    <style name="tablero">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:onClick">pintarCelda</item>
+
+
+    </style>
+
+</resources>

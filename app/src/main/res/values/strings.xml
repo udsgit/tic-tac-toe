@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tres En Raya</string>
+    <string name="dificultad">Dificultad</string>
+    <string name="unJugador">1 Jugador</string>
+    <string name="dosJugadores">2 Jugadores</string>
+    <string name="muyFacil">Muy Fácil</string>
+    <string name="facil">Fácil</string>
+    <string name="normal">Normal</string>
+    <string name="dificil">Difícil</string>
+    <string name="muyDificil">Muy Difícil</string>
+    <string name="imposible">Imposible</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="menu">Volver al Menú</string>
+    <string name="casilla">Casilla</string>
+    <string name="circuloGana">Los Circulos Ganan</string>
+    <string name="cruzGana">Las Cruces Ganan</string>
+    <string name="empate">Empate</string>
+</resources>

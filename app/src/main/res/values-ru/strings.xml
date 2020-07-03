@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Крестики-Нолики</string>
+    <string name="dificultad">Уровень сложности</string>
+    <string name="unJugador">1 игрок</string>
+    <string name="dosJugadores">2 игрока</string>
+    <string name="muyFacil">Очень Легко</string>
+    <string name="facil">Легко</string>
+    <string name="normal">Обычный</string>
+    <string name="dificil">Сложно</string>
+    <string name="muyDificil">Очень Сложно</string>
+    <string name="imposible">Невыполнимо</string>
+    <string name="reiniciar">Обновить</string>
+    <string name="menu">Возвратиться в Меню</string>
+    <string name="casilla">Клетка</string>
+    <string name="circuloGana">Нолики Победили</string>
+    <string name="cruzGana">Крестики Победили</string>
+    <string name="empate">Ничья</string>
+</resources>

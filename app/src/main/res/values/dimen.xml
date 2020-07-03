@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_pantalla">12dp</dimen>
+    <dimen name="casilla">90dp</dimen>
+    <dimen name="textoTitulo">24sp</dimen>
+    <dimen name="textoBotonJugadores">18sp</dimen>
+    <dimen name="anchoMinBotonJugadores">140dp</dimen>
+    <dimen name="altoMinBotonJugadores">36dp</dimen>
+
+    <dimen name="textoBotonDificultad">18sp</dimen>
+    <dimen name="anchoMinBotonDificultad">140dp</dimen>
+    <dimen name="altoMinBotonDificultad">36dp</dimen>
+
+
+    <dimen name="margenBoton">6dp</dimen>
+    <dimen name="radioBoton">6dp</dimen>
+    <dimen name="paddingBoton">6dp</dimen>
+    <dimen name="textoRadio">12sp</dimen>
+    <dimen name="trasparenciaRadio">0.8</dimen>
+
+</resources>
