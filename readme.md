@@ -26,12 +26,13 @@ During the summer holidays and after learning the basics of **Java**, I was curi
 
 You can try it downloading the [**Apk**](https://github.com/udsgit/tic-tac-toe/raw/master/apk/tic-tac-toe.apk).
 
-> <img src="images/demo.gif" width="300"/><br> > <i>Demo</i>
+> <img src="images/demo.gif" width="300"/><br> 
+> <i>Demo</i>
 
 ## **Screenshots**
 
 > <img src="images/home.jpg" width="300"/>
-> <img src="images/levels.jpg" width="300"/>
+> <img src="images/levels.jpg" width="300"/><br>
 > <i>Menu and Difficulty screen</i>
 
 ## **Technologies**
