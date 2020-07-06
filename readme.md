@@ -31,7 +31,8 @@ You can try it downloading the [**Apk**](https://github.com/udsgit/tic-tac-toe/r
 
 ## **Screenshots**
 
-> ![](images/home.jpg | width=48px)
+> <img src="images/home.jpg" width="150"/>
+>
 > _Menu screen._
 
 ## **Technologies**
