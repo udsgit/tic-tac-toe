@@ -26,7 +26,7 @@ During the summer holidays and after learning the basics of **Java**, I was curi
 
 You can try it downloading the [**Apk**](https://github.com/udsgit/tic-tac-toe/raw/master/apk/tic-tac-toe.apk).
 
-> <img src="images/demo.gif" width="300"/><br> 
+> <img src="images/demo.gif"><br> 
 > <i>Demo</i>
 
 ## **Screenshots**
