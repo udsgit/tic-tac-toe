@@ -31,8 +31,8 @@ You can try it downloading the [**Apk**](https://github.com/udsgit/tic-tac-toe/r
 
 ## **Screenshots**
 
-> <img src="images/home.jpg" width="300"/>
-> <img src="images/levels.jpg" width="300"/><br>
+> <img src="images/home.jpg" height="150"/>
+> <img src="images/levels.jpg"  height="150"/><br>
 > <i>Menu and Difficulty screen</i>
 
 ## **Technologies**
